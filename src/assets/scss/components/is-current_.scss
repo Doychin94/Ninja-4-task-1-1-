@@ -1,0 +1,28 @@
+/* ------------------------------------------------------------ *\
+	is-current
+\* ------------------------------------------------------------ */
+
+.is-current {
+	color: #000;
+	font-weight: 700;
+	position: relative;
+}
+
+/*  is-currend--underline  */
+
+.is-current--underline {
+	color: #000;
+	font-weight: 700;
+	position: relative;
+
+	&:after {
+	content: '';
+	display: inline-block;
+	width: 100%;
+	height: 1px;
+	background-color: $c-gold;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	}
+}

@@ -1,0 +1,21 @@
+/* ------------------------------------------------------------ *\
+	Header
+\* ------------------------------------------------------------ */
+
+.header {
+	padding: 2.3rem 0 1.6rem;
+	color: #686868;
+	font-size: 1.3rem;
+
+	.header__inner {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.header__actions {
+		display: flex;
+		gap: 0 2.9rem;
+		align-items: center;
+		margin-top: -1rem;
+	}
+}

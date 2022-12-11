@@ -1,0 +1,20 @@
+/* ------------------------------------------------------------ *\
+	Phone
+\* ------------------------------------------------------------ */
+
+.phone {
+	font-size: 2.4rem;
+	line-height: 1.2;
+	letter-spacing: -0.15rem;
+	font-family: $ff-montserrat;
+	font-weight: 700;
+	color: #000;
+	transition: opacity $t-duration ease-in-out;
+
+	&:hover {
+		@media(hover:hover) {
+			opacity: .7;
+			cursor: pointer;
+		}
+	}
+}

@@ -1,0 +1,37 @@
+/* ------------------------------------------------------------ *\
+	Footer
+\* ------------------------------------------------------------ */
+
+.footer {
+	padding: 9.8rem 0 2rem;
+	font-size: 1.3rem;
+	font-family: $ff-montserrat;
+	font-weight: 700;
+
+	.footer__logo {
+		display: inline-block;
+		margin-bottom: 1.12rem;
+	}
+
+	.footer__nav {
+		ul {
+			list-style-type: none;
+		}
+
+		li ~ li {
+			margin-top: 0.6rem;
+		}
+
+		a {
+			text-decoration: none;
+			text-transform: uppercase;
+			transition: color $t-duration ease-in-out;
+
+			&:hover {
+				@media(hover:hover) {
+					color: $c-gold;
+				}
+			}
+		}
+	}
+}

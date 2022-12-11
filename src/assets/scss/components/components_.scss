@@ -1,0 +1,45 @@
+/* ------------------------------------------------------------ *\
+	Components
+\* ------------------------------------------------------------ */
+
+.components {
+	ul {
+		display: flex;
+		list-style-type: none;
+		gap: 0 2.3rem;
+	}
+
+	.components__text {
+		font-size: 1.2rem;
+		line-height: 1.2;
+		letter-spacing: -0.03rem;
+		font-family: $ff-montserrat;
+		text-transform: uppercase;
+		display: block;
+		max-width: 11.9rem;
+		text-align: right;
+		position: relative;
+		padding-top: 0.3rem;
+	}
+
+	.components__text:after {
+		display: inline-block;
+		content: '';
+		position: absolute;
+		top: 0;
+		right: -1.5rem;
+		width: 0.1rem;
+		height: 100%;
+		background: #686868;
+		opacity: 0.5;
+	}
+
+}
+	/*  Components--margin  */
+
+	.components--adjust {
+		display: block;
+		max-width: 41.9rem;
+		margin: 0 0 2.6rem auto;
+		padding-left: 7px;
+	}

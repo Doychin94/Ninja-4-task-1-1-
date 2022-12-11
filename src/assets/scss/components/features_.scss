@@ -1,0 +1,29 @@
+/* ------------------------------------------------------------ *\
+	Features
+\* ------------------------------------------------------------ */
+
+.features {
+	.features__items {
+		list-style-type: none;
+		display: flex;
+		align-items: center;
+	}
+
+	/* features__item--size-1 */
+
+	.features__item--size-1 {
+		flex: 0 0 37%;
+	}
+
+	/* features__item--size-1 */
+
+	.features__item--size-2 {
+		flex: 0 0 35%;
+	}
+
+	/* features__item--size-1 */
+
+	.features__item--size-3 {
+		flex: 0 0 28%;
+	}
+}

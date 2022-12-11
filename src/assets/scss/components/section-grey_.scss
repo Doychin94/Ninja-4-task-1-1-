@@ -1,0 +1,39 @@
+/* ------------------------------------------------------------ *\
+	Section-grey
+\* ------------------------------------------------------------ */
+
+.section-grey {
+	background-color: #e5e5e5;
+	padding: 4rem 0 16.2rem;
+	text-align: center;
+
+	.section__text {
+		display: block;
+		color: #333333;
+	}
+
+	.section__text:last-of-type {
+		margin-bottom: 3.8rem;
+		line-height: 1;
+	}
+
+	.section__content {
+		max-width: 82.4rem;
+		margin: 0 auto 11.8rem auto;
+	}
+
+	h4 {
+		font-family: $ff-lora;
+		color: $c-gold;
+		font-style: italic;
+		font-weight: 400;
+		text-transform: capitalize;
+		margin-bottom: 0.6rem;
+	}
+
+	h2 {
+		text-transform: uppercase;
+		letter-spacing: -0.07rem;
+		margin-bottom: 2.2rem;
+	}
+}

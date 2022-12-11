@@ -1,0 +1,25 @@
+/* ------------------------------------------------------------ *\
+	list-pictures
+\* ------------------------------------------------------------ */
+
+.list-pictures {
+	list-style-type: none;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -1rem;
+	gap: 2rem 0;
+
+	li {
+		flex: 0 0 50%;
+		padding: 0 1rem;
+	}
+	
+
+	figure {
+		img {
+			width: 100%;
+			aspect-ratio: 1;
+			object-fit:cover;
+		}
+	}
+}

@@ -1,0 +1,105 @@
+/* ------------------------------------------------------------ *\
+	Button
+\* ------------------------------------------------------------ */
+
+.btn {
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	cursor: pointer;
+	text-decoration: none;
+	appearance: none;
+	text-transform: uppercase;
+	font-size: 1.4rem;
+	font-family: $ff-montserrat;
+	line-height: 1.2;
+	background: $c-gold;
+	border:none;
+	min-width: 15.8rem;
+	padding: 1.5rem 1rem;
+	letter-spacing: -0.01rem;
+	color: #fff;
+	transition: color $t-duration, background-color $t-duration ease-in-out;
+
+	&:hover {
+		@media(hover:hover) {
+			color:#000;
+			background-color: rgba(159, 132, 71, 0.3);
+			border: 1px solid $c-gold;
+		}
+	}
+}
+
+/*  btn--transperant  */
+
+.btn--transperant {
+	border: 1px solid $c-gold;
+	color: #000;
+	background: rgba(159, 132, 71, 0.3); 
+
+	&:hover {
+		@media(hover:hover) {
+			color: #fff;
+			background-color: $c-gold;
+		}
+	}
+}
+
+/*  btn--border-white  */
+
+.btn--border-white {
+	border: 1px solid #fff;
+
+	&:hover {
+		@media(hover:hover) {
+			color: #000;
+			background-color: #fff;
+			border: 1px solid #000;
+		}
+	}
+}
+
+/*  btn--black  */
+	.btn--black {
+		color: #9b927e;
+		background-color: #333333;
+		border: 1px solid #9b927e;
+	}
+
+	/*  btn--white  */
+	.btn--white {
+		color: #333333;
+		background-color: #fff;
+		border: 1px solid $c-gold;
+
+		&:hover {
+			@media(hover:hover) {
+				color: #fff;
+				background-color: #333333;
+				border: 1px solid $c-gold;
+			}
+		}
+	}
+
+	/*  btn--beige  */
+	.btn--beige {
+		color: #333333;
+		background-color: #9b927e;
+		border: 1px solid #333333;
+
+		&:hover {
+			@media(hover:hover) {
+				background-color: #333333;
+				color: #fff;
+				border: 1px solid #fff;
+			}
+		}
+	}
+
+/*  Btn block  */
+
+.btn--block {
+	display: block;
+	padding-left: 0;
+	padding-right: 0;
+}

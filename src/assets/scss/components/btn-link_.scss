@@ -1,0 +1,25 @@
+/* ------------------------------------------------------------ *\
+	Btn-link
+\* ------------------------------------------------------------ */
+
+.btn-link {
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	cursor: pointer;
+	text-decoration: none;
+	appearance: none;
+	text-transform: uppercase;
+	font-size: 1.2rem;
+	font-family: $ff-montserrat;
+	line-height: 1.2;
+	letter-spacing: -0.01rem;
+	color: #333333;
+	transition: color $t-duration, background-color $t-duration ease-in-out;
+
+	&:hover {
+	@media(hover:hover) {
+	color: $c-gold;
+	}
+	}
+}

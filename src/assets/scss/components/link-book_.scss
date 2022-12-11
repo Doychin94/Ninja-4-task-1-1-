@@ -1,0 +1,44 @@
+/* ------------------------------------------------------------ *\
+	Link-book
+\* ------------------------------------------------------------ */
+
+.link {
+	text-decoration: none;
+	font-size: 1.6rem;
+	line-height: 1.2;
+	color: $c-gold;
+	font-family: $ff-lora;
+	font-style: italic;
+	position: relative;
+	transition: opacity $t-duration  ease-in-out;
+
+	&:hover,
+	&:hover:after {
+		@media(hover:hover) {
+			opacity: .7
+		}
+	}
+}
+
+
+/*  link--book  */
+
+.link--book {
+
+		&:after {
+	content: '';
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	right: -1.7rem;
+	width: 0.7rem;
+	height: 0.7rem;
+	border-width: 0.1em;
+	border-style: solid;
+	border-color: $c-gold $c-gold transparent transparent;
+	transform: rotate(134deg);
+	margin-top: 0.5rem;
+	transition: opacity $t-duration  ease-in-out;
+	}
+
+}

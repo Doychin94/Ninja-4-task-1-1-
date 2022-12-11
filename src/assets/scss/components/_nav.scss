@@ -1,0 +1,32 @@
+/* ------------------------------------------------------------ *\
+	Nav
+\* ------------------------------------------------------------ */
+
+.nav {
+	font-family: $ff-montserrat;
+	letter-spacing: 0.03rem;
+
+	ul {
+		display: flex;
+		gap: 0 3.4rem;
+		list-style-type: none;
+	}
+
+	a {
+		text-decoration: none;
+		text-transform: uppercase;
+		transition: color $t-duration ease-in-out
+	}
+
+	a:hover {
+		@media(hover:hover) {
+			color: $c-gold;
+		}
+	}
+}
+
+/*  Nav--margin   */
+
+.nav--margin {
+	margin-right: 0.3rem;
+}

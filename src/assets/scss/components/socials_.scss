@@ -1,0 +1,21 @@
+/* ------------------------------------------------------------ *\
+	Socials
+\* ------------------------------------------------------------ */
+
+.socials{
+	ul {
+		display: flex;
+		list-style-type: none;
+		gap: 0 1.8rem;
+	}
+
+	  img {
+		transition: transform $t-duration ease-in-out;
+	}
+
+	 img:hover {
+		@media(hover:hover) {
+			transform: scale(1.1);
+		}
+	}
+}

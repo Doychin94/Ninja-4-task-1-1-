@@ -1,0 +1,35 @@
+/* ------------------------------------------------------------ *\
+	Slider
+\* ------------------------------------------------------------ */
+
+.slider {
+	position: relative;
+
+	.slider__actions {
+		position: absolute;
+		bottom: 0;
+		right: 10.3%;
+		margin-bottom: -2.1%;
+	}
+
+	.slider__next {
+		width: 6.5rem;
+		height: 6.5rem;
+		border-radius: 100%;
+		background-color: #333333;
+		color: #fff;
+		text-decoration: none;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 2.6rem;
+		font-weight: 600;
+		transition: background-color $t-duration ease-in-out;
+
+		&:hover {
+			@media(hover:hover) {
+				background-color: $c-gold;
+			}
+		}
+	}
+}

@@ -1,0 +1,17 @@
+/* ------------------------------------------------------------ *\
+	Articles
+\* ------------------------------------------------------------ */
+
+.articles {
+
+	.articles__items {
+		list-style-type: none;
+		display: flex;
+		margin: 0 -1.4rem
+	}
+
+	.articles__item {
+		padding: 0 1.4rem;
+		flex: 0 0 calc(100% / 3);
+	}
+}

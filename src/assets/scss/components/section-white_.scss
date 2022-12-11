@@ -1,0 +1,24 @@
+/* ------------------------------------------------------------ *\
+	Section-white
+\* ------------------------------------------------------------ */
+
+.section-white {
+	padding: 14.5rem 0 21.4rem 0;
+
+	.section__inner {
+		display:flex;
+	}
+
+	.section-white__about {
+		margin-top: -0.4rem;
+		padding-right: 2rem;
+	}
+
+	.section__content {
+		flex: 0 0 56.2%;
+	}
+
+	.section__aside {
+		flex: 0 0 43.8%;
+	}
+}
